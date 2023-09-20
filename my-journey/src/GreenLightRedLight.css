@@ -1,0 +1,74 @@
+/* CSS for GreenLightRedLight component */
+
+/* Styles for the container */
+div {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Styles for the box */
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border: 2px solid #333;
+}
+
+/* Styles for the "Start Game" button */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Styles for the win/lose messages */
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the clicks counter */
+p:last-child {
+  font-weight: bold;
+}
+
+@media (max-width: 320px) {
+  /* Adjust styles for screens with a width of 320px or less */
+  .box {
+    width: 150px;
+    height: 150px;
+  }
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* Adjust styles for screens with a width of 375px or less */
+  .box {
+    width: 150px;
+    height: 150px;
+  }
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

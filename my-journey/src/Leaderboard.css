@@ -1,0 +1,41 @@
+/* Leaderboard Container */
+div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Leaderboard Table */
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  }
+  
+  /* Table Header */
+  th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Table Rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Table Cells */
+  td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table Hover Effect */
+  tr:hover {
+    background-color: #ccc;
+  }
+  

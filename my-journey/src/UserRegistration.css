@@ -1,0 +1,172 @@
+/* src/components/UserRegistration.css */
+
+/* Body background animation */
+body {
+    background: linear-gradient(45deg, #7f00ff, #e100ff, #ff9900);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Container styling */
+  .main-div {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.9); 
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    line-height: 95%;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 4px;
+    text-align: left;
+  }
+  
+  /* Input styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    font-size: 14px;
+  }
+  
+  /* Button styling */
+  button {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Mobile Medium (321px - 375px) */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  /* Container styling */
+ /* Body background animation */
+body {
+  background: linear-gradient(45deg, #7f00ff, #e100ff, #ff9900);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Container styling */
+.main-div {
+  max-width: 280px; /* Adjust the container width as needed */
+  margin: 0 auto;
+  margin-top: 10px; /* Adjust the top margin as needed */
+  padding: 15px; /* Adjust the padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5%; /* Adjust the border radius as needed */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+/* Heading styling */
+h2 {
+  font-size: 20px; /* Adjust the heading font size as needed */
+  margin-bottom: 15px; /* Adjust the bottom margin as needed */
+  color: #333;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  line-height: 95%;
+}
+
+/* Label styling */
+label {
+  font-size: 14px; /* Adjust the label font size as needed */
+  font-weight: 550;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  padding: 8px; /* Adjust the input padding as needed */
+  border: 1px solid #ccc;
+  font-size: 12px; /* Adjust the input font size as needed */
+}
+
+/* Button styling */
+button {
+  margin-top: 25px; /* Adjust the top margin as needed */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px; /* Adjust the button padding as needed */
+  font-size: 14px; /* Adjust the button font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+}
